@@ -1,2 +1,5 @@
 # Ignore local automation script
 push-aem.bat
+
+# Ignore the folder (7 Rough or Practice area/), as this folder only contains day to day Practice codes, overwritten multiple times a day
+7 Rough or Practice area/
