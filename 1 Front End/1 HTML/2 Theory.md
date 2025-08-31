@@ -62,4 +62,6 @@ HTML was invented by Tim Berners Lee in 1993. He is the same man who invented in
 
 8. White Space Collapsing : When the browser comes across two or more spaces next to each other, it only displays one space. Similarly if it comes across a line break, it treats that as a single space too. This is known as white space collapsing.
 
-9.
+9. The `<div> and <span>` elements allow you to group block-level and inline elements together.
+
+10.
