@@ -38,3 +38,23 @@
     - Level of strictness ... var << let << const
 
 4. BLOCK SCOPE & Shadowing in JS
+
+    - **Block Scope** : Code inside curly bracket `{}` is called block
+    - Blocks are used to group multiple statements together, typically in constructs like if, else, for, while, function, etc.
+    - Block values are stored inside separate memory than global. They are stored in block (the reason `let and const` are called block scope)
+    - Variables declared with var are not block-scoped. They are stored in the nearest enclosing function scope (or the global scope if outside a function)
+    - **Shadowing** - Shadowing occurs when a variable declared inside a block has the same name as a variable declared in an outer scope
+    - The inner variable “shadows” (overrides) the outer one within that block
+    - Shadowing is allowed as long as it doesn’t violate scoping rules
+    - Shadowing with let or const inside a block is legal, provided the shadowed variable remains in its own scope
+    - **Illegal Shadowing**: Shadowing a let or const variable with var in the same or inner scope causes an error, because var is function/global scoped and tries to overwrite the block scope.
+
+    ```
+        let a = 5;
+        {
+        var a = 10; // ❌ Illegal shadowing
+        }
+    ```
+
+    - var → function/global scoped, accessible outside the block
+    - let & const → block scoped, accessible only within the block they are defined

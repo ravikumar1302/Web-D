@@ -8,10 +8,13 @@
     -   Semantic Elements: Uses tags like `<header> and <footer>` for better structure. (Semantic tags in HTML5 are elements that convey meaning about the content they contain, like header tells it contain some heading)
     -   Improved Performance: Faster and more efficient, especially on mobile.
 3.  HTML is not case-sensitive language. So, body == BODY == Body. But it is recommended to use LOWER-CASE
+
     -   X-HTML is Case sensetive
+
 4.  The index.html page is the most common name used for the default page shown on a website if no other page is specified when a visitor requests the site. In other words, index. html is the name used for the homepage of the website
 5.  Attribute value can be written in single as well as double quotes, i.e., `<html lang = "en"> == <html lang = 'en'>`, but as string is mostly written in double quotes, better to write in double quotes
 6.  While changing size of image, it is advisable to change only height or width, it will automatically adjust other value. But changing both will affect the aspect ratio, and image looks bad
+
 7.  Use right tag at right places, means use heating tag for heading, not simple text tag and than font size increase, because it affects the page ranking
 8.  Nested comments : use `<!~~ abc ~~>` inside `<!-- -->` to make a nested comment.
 9.  It is good to have only 1 H1 heading in a webpage.
@@ -36,4 +39,6 @@
     -   SVG Integration : Improved support for Scalable Vector Graphics (SVG), allowing for resolution-independent vector graphics to be embedded directly into HTML.
     -   WebSocket API : Enables real-time, bidirectional communication between the client and server.
 
-16.
+16. A noindex tag is a piece of code that instructs search engines not to include a specific webpage in their search results, making it inaccessible through organic search. It's implemented as an HTML <meta> tag or an HTTP X-Robots-Tag header. Website owners use noindex tags to prevent low-value pages (like internal search results or thank you pages), duplicate content, or sensitive information (like login pages) from appearing in search results, which helps preserve crawl budget and maintain a higher-quality search index
+
+17.
