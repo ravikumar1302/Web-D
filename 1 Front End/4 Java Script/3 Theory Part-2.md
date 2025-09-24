@@ -58,3 +58,5 @@
 
     - var → function/global scoped, accessible outside the block
     - let & const → block scoped, accessible only within the block they are defined
+
+5.
