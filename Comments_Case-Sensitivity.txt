@@ -14,8 +14,12 @@ Comment in different Tech Stacks :
 
 2. Front-End
     a) HTML : <!-- text -->
-    b) CSS : /* text */
-    c) JS : //
+    b) hbs : {{!-- comment --}} → safe, won’t render in HTML.
+    c) CSS : /* text */
+    d) SCSS : 
+        Single line = // text  (but it will be removed by pre-processor as CSS don't understand '//')
+        Multiple line = /* text */ 
+    e) JS : //
 
 3. Database
     a) SQL, PL-SQL : 
