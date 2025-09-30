@@ -1,54 +1,18 @@
-# ⚡ React vs Next.js
+## Basics of React JS
 
-## 🔹 React
+1. Extension : .jsx
 
--   It is a **JavaScript library** for building **UI components**.
+    - .js → Standard JavaScript files (most common in React projects)
+    - .jsx → JavaScript files that contain JSX syntax (React’s HTML-like syntax). While JSX can live in .js files too, some teams prefer .jsx to make it clear
+    - .ts → TypeScript files (if your React project uses TypeScript)
+    - .tsx → TypeScript files with JSX inside
 
--   It is maintained by Facebook (Meta).
+2. So, if you’re writing React components in plain JavaScript, you can use either:
 
--   **What it does:**
+    - Component.js
+    - Component.jsx
 
-    -   Lets you build **reusable UI components** (buttons, forms, layouts, etc.)
-    -   Manages **state** (data inside components).
-    -   Handles **UI rendering** on the client (browser).
-
--   **What it doesn’t do (alone):**
-    -   Routing (moving between pages)
-    -   Server-side rendering (SSR)
-    -   API endpoints
-    -   SEO optimization (since it’s client-side by default)
-
-👉 React is the **core** building block, but you usually need **extra libraries** for a full app (e.g., React Router, Axios, Redux).
-
----
-
-## 🔹 Next.js
-
--   It is a **framework built on top of React**.
-
--   IT is maintained by Vercel.
-
--   **What it does:**
-    -   Everything React does, **plus**:
-        -   ✅ **File-based routing** (no need for React Router)
-        -   ✅ **Server-side rendering (SSR)** and **Static site generation (SSG)** for SEO & performance
-        -   ✅ **API routes** (backend endpoints inside the same app)
-        -   ✅ **Image optimization**
-        -   ✅ **Built-in deployment support (Vercel)**
-        -   ✅ **Full-stack capabilities** (you can build both frontend + backend in one project)
-
-👉 Think of **Next.js as React + batteries included**.  
-It takes React and adds all the missing “real-world app” features.
-
----
-
-## 🔑 Analogy
-
--   **React = Engine** of a car (it makes things move, but not enough to drive comfortably).
--   **Next.js = Full Car** (engine + wheels + steering + navigation).
-
----
-
-1. Learn **React first** (components, state, props, hooks).
-    - Otherwise, Next.js will feel confusing.
-2. Then move to **Next.js** → you’ll see it’s just React + more features.
+3. If using TypeScript with React:
+    - Component.ts (no JSX inside)
+    - Component.tsx (with JSX inside)
+4.
