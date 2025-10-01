@@ -1,5 +1,6 @@
 # Bootstrap
 
+0. It is a CSS Framework
 1. Bootstrap is a `component-based CSS Framework` developed by Twitter. It comes with pre-designed UI components and layout utilities.
 2. Key Features:
 

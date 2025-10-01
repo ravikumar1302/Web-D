@@ -15,4 +15,14 @@
 3. If using TypeScript with React:
     - Component.ts (no JSX inside)
     - Component.tsx (with JSX inside)
+
+---
+
+### Need of React
+
+1. Whenever a webpage is loaded, Browser creates a tree like structure of HTML, called as DOM (Document object model)
+2. With growing size of code, it becomes difficult to manage DOM
+3. So, with React, webpage is defined using different re-usable components. And react handles the process of creating and updating DOM elements. E.g.
+    1. When any dynamic value/state is updated, reach updates the same in Light weight Virtual DOM and checks the same with Actual DOM.
+    2. If change is found, then only the actual (Browser) DOM is updated
 4.

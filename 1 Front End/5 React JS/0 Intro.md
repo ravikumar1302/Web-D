@@ -2,9 +2,28 @@
 
 ## 🔹 React
 
--   It is a **JavaScript library** for building **UI components**.
+-   It is a **JavaScript library** for building **UI components**. It is used to create Dynamics and interactive user interfaces.
 
--   It is maintained by Facebook (Meta).
+-   It is maintained by Facebook (Meta) in 2011 (Typescript was created by Microsoft in 2012)
+-   React is a JS library, but Anguler, Vue are JS framework
+
+    -   React is good at building UI, but in modern time it is highly unlike to use React alone
+    -   So, things like Routing (one page to another), HTTP calls, Managing application state, Internationalization, Form validation, Animations etc, differnt tools are used along with React
+
+---
+
+### Library vs Framwork
+
+-   `Library` :
+
+    -   A tool that provides specific functionality
+    -   It is like a single tool
+
+-   `Framework` :
+    -   A set of tools and guidelines for building apps
+    -   It is a tool-set (set of multiple tools)
+
+---
 
 -   **What it does:**
 
