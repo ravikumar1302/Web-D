@@ -12,17 +12,17 @@ BASIC Points :
                     alert("Hello, World!");
                 </script>
                 </head>
-            <body>    </body>
+            <body> ... </body>
             </html>
 
     b) In a seprate file (.js file) : 
         <!DOCTYPE html>
         <html>
         <head>
-        <title>JavaScript Test Site</title>
+        <title> JavaScript Test Site </title>
         <script src="first.js">   </script>
         </head>
-        <body>     </body>
+        <body> ... </body>
         </html>
         
         // In JavaScript file called first.js

@@ -1,18 +1,24 @@
 BASIC JavaScript THEORY :
-JavaScript was first proposed by =
+
+JavaScript was first proposed by =>  Brendan Eich in 1995
 
 Main Topics : Clousers, Prototype, Event Loop, Async Await, 
 
 0. file Extension : file_name.js
 0.1 JS is Case-Sensetive
 
-JavaScript is a programming language that is essential for web development. Any web page you interact with today, JavaScript is most likely providing the action on the page. JavaScript can be used to change the status of a button when it is clicked on, create a chat window at the bottom of your screen, or even create a web-based game. 
-With modern tools like Node.js, JavaScript can now also be used to save data to a database or to create desktop applications. The applications are limitless
+    - JavaScript is a programming language of the web, that is essential for web development
+    - Any web page you interact with today, JavaScript is most likely providing the action on the page
+    - JavaScript can be used to change the status of a button when it is clicked on, create a chat window at the bottom of your screen, or even create a web-based game
+    - With modern tools like Node.js, JavaScript can now also be used to save data to a database or to create desktop applications. The applications are limitless
+
+    - It can calculate, manipulate and validate data
+    - It can update and change both HTML and CSS
 
 0.2 DEFINATIONS
     - JS is a High level, just in time compiled programming language (means it compiles at run time, unlike java you don't have to first compile and then run it)
-    - JS is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. 
-    - It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles.
+    - JS is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well
+    - It is a prototype-based, multi-paradigm scripting language that is dynamic and supports object-oriented, imperative and functional programming styles
     - JS runs on browsers and servers(NodeJS) or JS run on the client side of the web, which can be used to design / program how the web pages behave on the occurrence of an event. JS is an easy to learn and also powerful scripting language, widely used for controlling web page behavior.
     - It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
 
