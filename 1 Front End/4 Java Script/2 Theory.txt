@@ -6,6 +6,7 @@ Main Topics : Clousers, Prototype, Event Loop, Async Await,
 
 0. file Extension : file_name.js
 0.1 JS is Case-Sensetive
+    - JavaScript accepts both double and single quotes: "hello" == 'hello'
 
     - JavaScript is a programming language of the web, that is essential for web development
     - Any web page you interact with today, JavaScript is most likely providing the action on the page
