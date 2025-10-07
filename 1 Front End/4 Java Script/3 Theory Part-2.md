@@ -15,7 +15,74 @@
     - The JS engine first searches for a variable in the current local memory space, if its not found here it searches for the variable in the lexical environment of its parent, and if its still not found, then it searches that variable in the subsequent lexical environments, and the sequence goes on until the variable is found in some lexical environment or the lexical environment becomes NULL
     - The mechanism of searching variables in the subsequent lexical environments is known as Scope Chain. If a variable is not found anywhere, then we say that the variable is not present in the scope chain
 
-3. `let & const in JS (Temporal Dead Zone)`
+3. **Variables in JS**
+
+    1. **Var** :
+        - Variables declared with the var always have Global Scope.
+        - Variables declared with the var keyword can NOT have block scope
+        - Variables defined with var are hoisted to the top and can be initialized at any time. Meaning: You can use the variable before it is declared
+        ```
+            E.g., below is okay
+            carName = "Volvo";
+            var carName;
+        ```
+    2. **Let** :
+        - Variables declared with let have Block Scope
+        - These variables must be Declared before use
+        - These cannot be redeclared in the same scope
+        - Variables defined with let are also hoisted to the top of the block, but not initialized. Meaning: Using a let variable before it is declared will result in a ReferenceError
+    3. **Const** :
+
+        - JavaScript const variables must be assigned a value when they are declared : const PI = 3.14159265359;
+        - Variables defined with const cannot be Redeclared
+        - Variables defined with const cannot be Reassigned
+        - Variables defined with const have Block Scope
+
+        - The keyword const is a little misleading. It does not define a constant value. It defines a constant reference to a value.
+        - Because of this you can NOT: Reassign a constant value, constant array or constant object
+        - But you CAN: Change the elements of constant array, Change the properties of constant object
+
+        - **Constant Arrays**
+
+        ```
+            // You can create a constant array:
+            const cars = ["Saab", "Volvo", "BMW"];
+
+            // You can change an element:
+            cars[0] = "Toyota";
+
+            // You can add an element:
+            cars.push("Audi");
+
+           => But you can NOT reassign the array:
+                const cars = ["Saab", "Volvo", "BMW"];
+                cars = ["Toyota", "Volvo", "Audi"];    // ERROR
+        ```
+
+        - **Constant Object**
+
+        ```
+           => You can change the elements of a constant array:
+
+            // You can create a constant array:
+            const cars = ["Saab", "Volvo", "BMW"];
+
+            // You can change an element:
+            cars[0] = "Toyota";
+
+            // You can add an element:
+            cars.push("Audi");
+        ```
+
+    ### Difference Between var, let and const
+
+    | Keyword   | Scope | Redeclare | Reassign | Hoisted | Binds 'this' |
+    | --------- | ----- | --------- | -------- | ------- | ------------ |
+    | **var**   | No    | Yes       | Yes      | Yes     | Yes          |
+    | **let**   | Yes   | No        | Yes      | No      | No           |
+    | **const** | Yes   | No        | No       | No      | No           |
+
+4. `let & const in JS (Temporal Dead Zone)`
 
     - let and const are hoisted but its memory is allocated at other place than window which cannot be accessed before initialisation
     - Temporal Dead Zone exists until variable is declared and assigned a value
@@ -37,7 +104,7 @@
     - Initialising variables at the top is good idea, helps shrinks TDZ to zero
     - Level of strictness ... var << let << const
 
-4. BLOCK SCOPE & Shadowing in JS
+5. BLOCK SCOPE & Shadowing in JS
 
     - **Block Scope** : Code inside curly bracket `{}` is called block
     - Blocks are used to group multiple statements together, typically in constructs like if, else, for, while, function, etc.
@@ -59,4 +126,4 @@
     - var → function/global scoped, accessible outside the block
     - let & const → block scoped, accessible only within the block they are defined
 
-5.
+6.
