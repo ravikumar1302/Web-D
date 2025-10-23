@@ -18,8 +18,8 @@
 3. **Variables in JS**
 
     1. **Var** :
-        - Variables declared with the var always have Global Scope.
-        - Variables declared with the var keyword can NOT have block scope
+        - Variables declared with the var always have Global Scope. It cannot have Block Scope.
+        - These can be re-declared and values can be updated
         - Variables defined with var are hoisted to the top and can be initialized at any time. Meaning: You can use the variable before it is declared
         ```
             E.g., below is okay
@@ -29,13 +29,12 @@
     2. **Let** :
         - Variables declared with let have Block Scope
         - These variables must be Declared before use
-        - These cannot be redeclared in the same scope
+        - These cannot be redeclared in the same scope, but there values can be updated
         - Variables defined with let are also hoisted to the top of the block, but not initialized. Meaning: Using a let variable before it is declared will result in a ReferenceError
     3. **Const** :
 
         - JavaScript const variables must be assigned a value when they are declared : const PI = 3.14159265359;
-        - Variables defined with const cannot be Redeclared
-        - Variables defined with const cannot be Reassigned
+        - Variables defined with const cannot be Redeclared and thier values cannot be Reassigned
         - Variables defined with const have Block Scope
 
         - The keyword const is a little misleading. It does not define a constant value. It defines a constant reference to a value.
