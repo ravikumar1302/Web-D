@@ -2,7 +2,7 @@
 push-aem.bat
 
 # Ignore the folder (6 Projects), as there are basic practice/test/dummy projects
-6 Projects/
+# 6 Projects/
 
 # Ignore the folder (7 Rough or Practice area/), as this folder only contains day to day Practice codes, overwritten multiple times a day
 7 Rough or Practice area/
