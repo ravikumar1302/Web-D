@@ -13,8 +13,11 @@
     - Component.jsx
 
 3. If using TypeScript with React:
+
     - Component.ts (no JSX inside)
     - Component.tsx (with JSX inside)
+
+4. JSX : JavaScript Syntex Extension
 
 ---
 
