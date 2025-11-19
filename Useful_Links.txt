@@ -6,5 +6,5 @@
 3. 
 
 
-// For saving Adobe AEM to public repo run : 
-                                        git subtree push --prefix="6 Adobe AEM" adobe-aem main
+// For saving Adobe AEM to seprate public repo run : 
+                                        git subtree push --prefix="4 Adobe AEM" adobe-aem main

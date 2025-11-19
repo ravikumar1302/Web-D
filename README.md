@@ -18,9 +18,8 @@ Whether you're a beginner exploring the basics of HTML/CSS/JS or someone looking
 -   **HTML** – Structure and semantic web development.
 -   **CSS** – Styling and responsive design.
 -   **JavaScript** – Client-side programming and interactivity.
+-   **Adobe AEM** – A SaaS-based content management system (CMS) that supports website development, digital asset management, and workflow automation.
 -   **Databases** – Concepts and queries for handling data.
--   **Adobe AEM** – Content management and workflow automation.
--   **Cloud Computing** – Fundamental cloud concepts and practices.
 
 ---
 
@@ -31,9 +30,11 @@ The repository includes the following:
 -   **0 General** → Notes on DNS and general concepts.
 -   **1 Front End** → HTML, CSS, JavaScript details and examples.
 -   **2 Database** → Database notes and structures.
--   **4 Projects** → Practice projects and implementations.
+-   **3 Backend** → Core Java...
+-   **4 Adobe AEM** → Workflows and usage of Adobe AEM, Along with my Notes prepared over time from different resources.
 -   **5 Cloud Computing** → Notes and resources on cloud technologies.
--   **6 Adobe AEM** → Workflows and usage of Adobe AEM, Along with my Notes prepared over time from different resources.
+-   **6 Mini-Projects** → Practice projects and implementations.
+
 -   **Images** → Reference images for documentation and notes.
 
 ---
