@@ -28,4 +28,7 @@
 3. So, with React, webpage is defined using different re-usable components. And react handles the process of creating and updating DOM elements. E.g.
     1. When any dynamic value/state is updated, reach updates the same in Light weight Virtual DOM and checks the same with Actual DOM.
     2. If change is found, then only the actual (Browser) DOM is updated
-4.
+4. React Projects Use A Build Process
+    - Raw, unprocessed React code won't execute in the browser, as JSX is not a default JavaScript feature
+    - In addition, the code would not be optimized for production (e.g., not minified)
+    - React projects require a build process that transforms your code; create-react-app, vite etc. give you such a build process (no custom setup or tweaking needed)
